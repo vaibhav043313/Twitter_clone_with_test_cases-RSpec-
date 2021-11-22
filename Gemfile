@@ -18,6 +18,8 @@ gem 'uglifier', '~> 4.2'
 gem 'coffee-rails', '~> 5.0'
 gem 'jquery-rails', '~> 4.4'
 gem 'sdoc', '~> 2.2'
+gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
+#gem 'bootstrap', '~> 5.1', '>= 5.1.3'
 
 # gem 'redis', '~> 4.0'
 gem 'bcrypt', '~> 3.1.7'
@@ -45,6 +47,7 @@ group :test do
   gem 'minitest-reporters', '1.0.5'
   gem 'mini_backtrace',     '0.1.3'
   gem 'guard-minitest',     '2.3.1'
+  gem 'rails-controller-testing', '~> 1.0', '>= 1.0.5'
 end
 
 group :production do
